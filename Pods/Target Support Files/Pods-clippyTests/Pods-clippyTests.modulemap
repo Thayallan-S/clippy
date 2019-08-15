@@ -1,0 +1,6 @@
+framework module Pods_clippyTests {
+  umbrella header "Pods-clippyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

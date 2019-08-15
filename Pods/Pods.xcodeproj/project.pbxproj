@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F543DB4744ACC6D097CB01162AF0FA7 /* Pods-clippyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6ABAF52315CB16D05308E5316CBE06D /* Pods-clippyUITests-dummy.m */; };
+		29784D27868C289298CBBC341C089C58 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA3A4917E43D02462914F577E42B58 /* Key.swift */; };
+		4A6CAB6B58738CEFE47E419DE6E18B8A /* Pods-clippy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 690D961666372C3BEC8D1FC6DCA89F0C /* Pods-clippy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD85D4BF719F14D0FE974C203F5A8F8 /* Pods-clippyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2DF451EACFF6C129080EAFE7E1BA69 /* Pods-clippyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590BC7E734A6238A63A180EF55B7F456 /* Pods-clippy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D86735A5C49E5911933025C3613E1D5 /* Pods-clippy-dummy.m */; };
+		626E87E152AFE505F2AFEA41366370A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8D291E7B8FD9310F5C090F575C22BA /* Cocoa.framework */; };
+		6329F2E68803BCDBFC3C3A48DF5109E3 /* HotKey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DC2CDBFB37389EB7782A74940C6680 /* HotKey-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753C094F16E687CC3C027B49F9A6DE3C /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F89C819E4D5C41F36B9027C1D8CE /* HotKeysController.swift */; };
+		9C995A1C6CEE3603CBD3C829D8ECEF8C /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375DD84F77DAD7D40EFD7D1F40E0F912 /* HotKey.swift */; };
+		A3543A70DF8931D1D0C5FA57A6B0FB4B /* HotKey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6161A25A04DF3DE074AB1A59B3DDEDDE /* HotKey-dummy.m */; };
+		B1E75E67962EF3891467FAA026346869 /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829B8257EFC040B9E57B94A52BF34B0 /* NSEventModifierFlags+HotKey.swift */; };
+		B690623CBB2C64D853AC854EA9B3DD60 /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E280074895780D2BF089A8C129243 /* KeyCombo.swift */; };
+		BCE93ABC68EE7A6787F4FB198A16F57C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8D291E7B8FD9310F5C090F575C22BA /* Cocoa.framework */; };
+		D0E94C7C6FFCFEB1ABBAAE808A092299 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8D291E7B8FD9310F5C090F575C22BA /* Cocoa.framework */; };
+		D19844D6829947B01B5F27E33E319AFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8D291E7B8FD9310F5C090F575C22BA /* Cocoa.framework */; };
+		D259705A958B2A7340C31BB02ACA24FE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505A38674B007A641E9AB0A4BF503C07 /* Carbon.framework */; };
+		E47C687629A0B996A337B269E4F5C8E1 /* Appkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038DF7F78C4B12A94F20AC6C8229C29 /* Appkit.framework */; };
+		E6A56E7FFFCF1F08FF1427E627B5A88A /* Pods-clippyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E866639F6629FF06D0090CFBE9188924 /* Pods-clippyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9DD467153399DB195D7745627218B13 /* Pods-clippyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ACE4676C1F3BA896CBC320451B83F3 /* Pods-clippyTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40D55ABFF98E5F078FF4E41ACB288CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C828988FC0CDB736B59BE262FD388E8;
+			remoteInfo = "Pods-clippy";
+		};
+		48C852D301FAC4DCAA44178B7BB03E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C828988FC0CDB736B59BE262FD388E8;
+			remoteInfo = "Pods-clippy";
+		};
+		65F0C73A9B74177CECE98DA786A7622D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4D977E4336D9F2E9E510A33CD1DB6D;
+			remoteInfo = HotKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0080F08591E1353C4F844260FC0AFE59 /* HotKey-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-prefix.pch"; sourceTree = "<group>"; };
+		0A8D291E7B8FD9310F5C090F575C22BA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		101A27A7FFB2F6885DC62A63B4BE6D85 /* Pods-clippyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clippyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11D5F89C819E4D5C41F36B9027C1D8CE /* HotKeysController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKeysController.swift; path = Sources/HotKey/HotKeysController.swift; sourceTree = "<group>"; };
+		15DF07EC6728D15DF2C91FA776DE36BC /* Pods-clippy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-clippy-frameworks.sh"; sourceTree = "<group>"; };
+		1BBE4DD3664B28DAB09543E01331F6C9 /* Pods-clippyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clippyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24DA3A4917E43D02462914F577E42B58 /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = Sources/HotKey/Key.swift; sourceTree = "<group>"; };
+		25308A84D25EBBA3B6FCDA3B30DCE3DA /* Pods-clippyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clippyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2829B8257EFC040B9E57B94A52BF34B0 /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSEventModifierFlags+HotKey.swift"; path = "Sources/HotKey/NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
+		375DD84F77DAD7D40EFD7D1F40E0F912 /* HotKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HotKey.swift; path = Sources/HotKey/HotKey.swift; sourceTree = "<group>"; };
+		3FEBB5608197728674A628B1728FD7B2 /* Pods-clippy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clippy-Info.plist"; sourceTree = "<group>"; };
+		410E280074895780D2BF089A8C129243 /* KeyCombo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyCombo.swift; path = Sources/HotKey/KeyCombo.swift; sourceTree = "<group>"; };
+		47B846D6DCE91A7B2251F039043340EA /* HotKey.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HotKey.xcconfig; sourceTree = "<group>"; };
+		48A02C7C44476587B5E7A8C295787A21 /* Pods-clippy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clippy-acknowledgements.plist"; sourceTree = "<group>"; };
+		48DC2CDBFB37389EB7782A74940C6680 /* HotKey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HotKey-umbrella.h"; sourceTree = "<group>"; };
+		4A6C0E5462A5FEE1553A361837A8EAAD /* Pods-clippyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-clippyTests.modulemap"; sourceTree = "<group>"; };
+		4B3B14C1279B85C8AFB1FDD3B26C6F9E /* HotKey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HotKey.modulemap; sourceTree = "<group>"; };
+		4D808C11DD8244028BB7F3F9EE6598E9 /* Pods-clippy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clippy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D86735A5C49E5911933025C3613E1D5 /* Pods-clippy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clippy-dummy.m"; sourceTree = "<group>"; };
+		5038DF7F78C4B12A94F20AC6C8229C29 /* Appkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appkit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Appkit.framework; sourceTree = DEVELOPER_DIR; };
+		505A38674B007A641E9AB0A4BF503C07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		55756C9BE04E6E3695030F633B408F2F /* Pods-clippyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clippyTests-Info.plist"; sourceTree = "<group>"; };
+		603128F1C7D28B2BB3242C195CA20EF0 /* Pods-clippyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clippyTests.release.xcconfig"; sourceTree = "<group>"; };
+		6161A25A04DF3DE074AB1A59B3DDEDDE /* HotKey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HotKey-dummy.m"; sourceTree = "<group>"; };
+		66284B4DDD2BFCC890D54D2A888D4AD9 /* Pods-clippyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clippyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		690D961666372C3BEC8D1FC6DCA89F0C /* Pods-clippy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-clippy-umbrella.h"; sourceTree = "<group>"; };
+		7BC9FE1AB29E90A75B1451F018D87DA0 /* Pods-clippyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clippyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FEE8738F905CAED72DF58DA025865E4 /* Pods-clippy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clippy.debug.xcconfig"; sourceTree = "<group>"; };
+		82F39D693FE66DE13F669F57A5A41D5F /* Pods_clippyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_clippyTests.framework; path = "Pods-clippyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADC74468FF551DB472FB5A79A946448 /* Pods-clippyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-clippyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B6A2D1BBA1D028A589CC19951619579 /* Pods-clippy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-clippy.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C470F6AD4379D77DF9EDD1A4249BC9F4 /* Pods_clippy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_clippy.framework; path = "Pods-clippy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6ABAF52315CB16D05308E5316CBE06D /* Pods-clippyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clippyUITests-dummy.m"; sourceTree = "<group>"; };
+		CCE1C41EDB938D9F3A36277C811C8C44 /* Pods-clippyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clippyUITests-Info.plist"; sourceTree = "<group>"; };
+		D381FBB36DAD12D68D3E916A3B181D5D /* Pods-clippyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-clippyUITests.modulemap"; sourceTree = "<group>"; };
+		D500C100E6DF42E9F096EF86DFCFA23D /* Pods-clippyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-clippyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9ACE4676C1F3BA896CBC320451B83F3 /* Pods-clippyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-clippyTests-dummy.m"; sourceTree = "<group>"; };
+		DB2DF451EACFF6C129080EAFE7E1BA69 /* Pods-clippyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-clippyUITests-umbrella.h"; sourceTree = "<group>"; };
+		DF3F389E38DF38291814FEE0AA532C76 /* HotKey-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HotKey-Info.plist"; sourceTree = "<group>"; };
+		DF4569F8661BB4716094215CAFB8ACB9 /* Pods-clippy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-clippy.modulemap"; sourceTree = "<group>"; };
+		E866639F6629FF06D0090CFBE9188924 /* Pods-clippyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-clippyTests-umbrella.h"; sourceTree = "<group>"; };
+		F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HotKey.framework; path = HotKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F93B29838CFC24F0EFC1857F36E043 /* Pods_clippyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_clippyUITests.framework; path = "Pods-clippyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA7C43B3DFF5872DE35FABA9AEB62E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47C687629A0B996A337B269E4F5C8E1 /* Appkit.framework in Frameworks */,
+				D259705A958B2A7340C31BB02ACA24FE /* Carbon.framework in Frameworks */,
+				626E87E152AFE505F2AFEA41366370A3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30667E4298E09084B1B45F432ABDFEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE93ABC68EE7A6787F4FB198A16F57C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DCE88DB1FCC604125FB340B7A0D948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E94C7C6FFCFEB1ABBAAE808A092299 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8B5C3ED20FAA872D757D135D0468F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19844D6829947B01B5F27E33E319AFF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1912835CE5E7438FC00D85FE58418E86 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5038DF7F78C4B12A94F20AC6C8229C29 /* Appkit.framework */,
+				505A38674B007A641E9AB0A4BF503C07 /* Carbon.framework */,
+				0A8D291E7B8FD9310F5C090F575C22BA /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2FED4305553F2B5BC5C8108AA730CECB /* Pods-clippy */ = {
+			isa = PBXGroup;
+			children = (
+				DF4569F8661BB4716094215CAFB8ACB9 /* Pods-clippy.modulemap */,
+				4D808C11DD8244028BB7F3F9EE6598E9 /* Pods-clippy-acknowledgements.markdown */,
+				48A02C7C44476587B5E7A8C295787A21 /* Pods-clippy-acknowledgements.plist */,
+				4D86735A5C49E5911933025C3613E1D5 /* Pods-clippy-dummy.m */,
+				15DF07EC6728D15DF2C91FA776DE36BC /* Pods-clippy-frameworks.sh */,
+				3FEBB5608197728674A628B1728FD7B2 /* Pods-clippy-Info.plist */,
+				690D961666372C3BEC8D1FC6DCA89F0C /* Pods-clippy-umbrella.h */,
+				7FEE8738F905CAED72DF58DA025865E4 /* Pods-clippy.debug.xcconfig */,
+				9B6A2D1BBA1D028A589CC19951619579 /* Pods-clippy.release.xcconfig */,
+			);
+			name = "Pods-clippy";
+			path = "Target Support Files/Pods-clippy";
+			sourceTree = "<group>";
+		};
+		66673079F50E8EFCA50F7F5C3DA49E41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3B263D0F3BC54DC354B270820320F0 /* HotKey */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C176D3DD19B7AA62DD0B1F42D2D994F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey.framework */,
+				C470F6AD4379D77DF9EDD1A4249BC9F4 /* Pods_clippy.framework */,
+				82F39D693FE66DE13F669F57A5A41D5F /* Pods_clippyTests.framework */,
+				F4F93B29838CFC24F0EFC1857F36E043 /* Pods_clippyUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1912835CE5E7438FC00D85FE58418E86 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD3B263D0F3BC54DC354B270820320F0 /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				375DD84F77DAD7D40EFD7D1F40E0F912 /* HotKey.swift */,
+				11D5F89C819E4D5C41F36B9027C1D8CE /* HotKeysController.swift */,
+				24DA3A4917E43D02462914F577E42B58 /* Key.swift */,
+				410E280074895780D2BF089A8C129243 /* KeyCombo.swift */,
+				2829B8257EFC040B9E57B94A52BF34B0 /* NSEventModifierFlags+HotKey.swift */,
+				FAF0C563047228692F10C85B6F8E3C2C /* Support Files */,
+			);
+			name = HotKey;
+			path = HotKey;
+			sourceTree = "<group>";
+		};
+		B151B9E7E7DA76C056C1C8C28C79340A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FED4305553F2B5BC5C8108AA730CECB /* Pods-clippy */,
+				B9F3AEB66E4F641C87836FEE4581ACC3 /* Pods-clippyTests */,
+				BDAB629D2C7B864B8437C2026221DDEB /* Pods-clippyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9F3AEB66E4F641C87836FEE4581ACC3 /* Pods-clippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C0E5462A5FEE1553A361837A8EAAD /* Pods-clippyTests.modulemap */,
+				8ADC74468FF551DB472FB5A79A946448 /* Pods-clippyTests-acknowledgements.markdown */,
+				D500C100E6DF42E9F096EF86DFCFA23D /* Pods-clippyTests-acknowledgements.plist */,
+				D9ACE4676C1F3BA896CBC320451B83F3 /* Pods-clippyTests-dummy.m */,
+				55756C9BE04E6E3695030F633B408F2F /* Pods-clippyTests-Info.plist */,
+				E866639F6629FF06D0090CFBE9188924 /* Pods-clippyTests-umbrella.h */,
+				7BC9FE1AB29E90A75B1451F018D87DA0 /* Pods-clippyTests.debug.xcconfig */,
+				603128F1C7D28B2BB3242C195CA20EF0 /* Pods-clippyTests.release.xcconfig */,
+			);
+			name = "Pods-clippyTests";
+			path = "Target Support Files/Pods-clippyTests";
+			sourceTree = "<group>";
+		};
+		BDAB629D2C7B864B8437C2026221DDEB /* Pods-clippyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D381FBB36DAD12D68D3E916A3B181D5D /* Pods-clippyUITests.modulemap */,
+				66284B4DDD2BFCC890D54D2A888D4AD9 /* Pods-clippyUITests-acknowledgements.markdown */,
+				25308A84D25EBBA3B6FCDA3B30DCE3DA /* Pods-clippyUITests-acknowledgements.plist */,
+				C6ABAF52315CB16D05308E5316CBE06D /* Pods-clippyUITests-dummy.m */,
+				CCE1C41EDB938D9F3A36277C811C8C44 /* Pods-clippyUITests-Info.plist */,
+				DB2DF451EACFF6C129080EAFE7E1BA69 /* Pods-clippyUITests-umbrella.h */,
+				101A27A7FFB2F6885DC62A63B4BE6D85 /* Pods-clippyUITests.debug.xcconfig */,
+				1BBE4DD3664B28DAB09543E01331F6C9 /* Pods-clippyUITests.release.xcconfig */,
+			);
+			name = "Pods-clippyUITests";
+			path = "Target Support Files/Pods-clippyUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */,
+				66673079F50E8EFCA50F7F5C3DA49E41 /* Pods */,
+				9C176D3DD19B7AA62DD0B1F42D2D994F /* Products */,
+				B151B9E7E7DA76C056C1C8C28C79340A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF0C563047228692F10C85B6F8E3C2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B14C1279B85C8AFB1FDD3B26C6F9E /* HotKey.modulemap */,
+				47B846D6DCE91A7B2251F039043340EA /* HotKey.xcconfig */,
+				6161A25A04DF3DE074AB1A59B3DDEDDE /* HotKey-dummy.m */,
+				DF3F389E38DF38291814FEE0AA532C76 /* HotKey-Info.plist */,
+				0080F08591E1353C4F844260FC0AFE59 /* HotKey-prefix.pch */,
+				48DC2CDBFB37389EB7782A74940C6680 /* HotKey-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HotKey";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09A50CA21EBAEFDECDD3A9A13A4FCDF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6CAB6B58738CEFE47E419DE6E18B8A /* Pods-clippy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0E801D560393FC0C602D59EFAE84D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD85D4BF719F14D0FE974C203F5A8F8 /* Pods-clippyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2A921FE5F15C5E56AC5207C9188AEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A56E7FFFCF1F08FF1427E627B5A88A /* Pods-clippyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86CE60BF1555823DE98BC5D4354F297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6329F2E68803BCDBFC3C3A48DF5109E3 /* HotKey-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		381E0D8516229D55E58267324FC2072B /* Pods-clippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0774B8CF935268EE43CCC073492FAB /* Build configuration list for PBXNativeTarget "Pods-clippyTests" */;
+			buildPhases = (
+				7F2A921FE5F15C5E56AC5207C9188AEB /* Headers */,
+				13C0897670E0F76190952B66A63F5C05 /* Sources */,
+				92DCE88DB1FCC604125FB340B7A0D948 /* Frameworks */,
+				C20FF37E187EEEDFBA54BA9CF4BA544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD35EA3947DFC283F025640C829CF32 /* PBXTargetDependency */,
+			);
+			name = "Pods-clippyTests";
+			productName = "Pods-clippyTests";
+			productReference = 82F39D693FE66DE13F669F57A5A41D5F /* Pods_clippyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C828988FC0CDB736B59BE262FD388E8 /* Pods-clippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CBC712A5576BF7045F3BEA3D6804E3 /* Build configuration list for PBXNativeTarget "Pods-clippy" */;
+			buildPhases = (
+				09A50CA21EBAEFDECDD3A9A13A4FCDF6 /* Headers */,
+				3B1891E1D72EE4594F94E08011E05663 /* Sources */,
+				9D8B5C3ED20FAA872D757D135D0468F4 /* Frameworks */,
+				1A6B2D9CDC40555EE3CCF7EE8A9EAFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297C20AE46668F9AA606F4636DF15BD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-clippy";
+			productName = "Pods-clippy";
+			productReference = C470F6AD4379D77DF9EDD1A4249BC9F4 /* Pods_clippy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FB7B1AB347FC4CAFD4F8281DC27C314 /* Pods-clippyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7D1D53CFBFD1F7C0C0557103523512 /* Build configuration list for PBXNativeTarget "Pods-clippyUITests" */;
+			buildPhases = (
+				0B0E801D560393FC0C602D59EFAE84D1 /* Headers */,
+				BBD94C52C7377D4305194A7FB13A64F8 /* Sources */,
+				30667E4298E09084B1B45F432ABDFEED /* Frameworks */,
+				FE9EC2B74A906E0EA933FB692E4C1F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973EA9491E3D5D63ED9BE22433C34DFF /* PBXTargetDependency */,
+			);
+			name = "Pods-clippyUITests";
+			productName = "Pods-clippyUITests";
+			productReference = F4F93B29838CFC24F0EFC1857F36E043 /* Pods_clippyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CF4E656A9E7278BE7AD5E48841412E /* Build configuration list for PBXNativeTarget "HotKey" */;
+			buildPhases = (
+				F86CE60BF1555823DE98BC5D4354F297 /* Headers */,
+				7CBB17719916DF3020AE21CEEA3DD91C /* Sources */,
+				2AA7C43B3DFF5872DE35FABA9AEB62E8 /* Frameworks */,
+				B29C2900C4DEA03C97EAAA1E92F0C9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotKey;
+			productName = HotKey;
+			productReference = F36B2E7BB4C3E92E4DF7443FAFF3AE3F /* HotKey.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C176D3DD19B7AA62DD0B1F42D2D994F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */,
+				3C828988FC0CDB736B59BE262FD388E8 /* Pods-clippy */,
+				381E0D8516229D55E58267324FC2072B /* Pods-clippyTests */,
+				4FB7B1AB347FC4CAFD4F8281DC27C314 /* Pods-clippyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6B2D9CDC40555EE3CCF7EE8A9EAFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C2900C4DEA03C97EAAA1E92F0C9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20FF37E187EEEDFBA54BA9CF4BA544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EC2B74A906E0EA933FB692E4C1F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C0897670E0F76190952B66A63F5C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD467153399DB195D7745627218B13 /* Pods-clippyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1891E1D72EE4594F94E08011E05663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590BC7E734A6238A63A180EF55B7F456 /* Pods-clippy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB17719916DF3020AE21CEEA3DD91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3543A70DF8931D1D0C5FA57A6B0FB4B /* HotKey-dummy.m in Sources */,
+				9C995A1C6CEE3603CBD3C829D8ECEF8C /* HotKey.swift in Sources */,
+				753C094F16E687CC3C027B49F9A6DE3C /* HotKeysController.swift in Sources */,
+				29784D27868C289298CBBC341C089C58 /* Key.swift in Sources */,
+				B690623CBB2C64D853AC854EA9B3DD60 /* KeyCombo.swift in Sources */,
+				B1E75E67962EF3891467FAA026346869 /* NSEventModifierFlags+HotKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD94C52C7377D4305194A7FB13A64F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F543DB4744ACC6D097CB01162AF0FA7 /* Pods-clippyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297C20AE46668F9AA606F4636DF15BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HotKey;
+			target = DB4D977E4336D9F2E9E510A33CD1DB6D /* HotKey */;
+			targetProxy = 65F0C73A9B74177CECE98DA786A7622D /* PBXContainerItemProxy */;
+		};
+		973EA9491E3D5D63ED9BE22433C34DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-clippy";
+			target = 3C828988FC0CDB736B59BE262FD388E8 /* Pods-clippy */;
+			targetProxy = 48C852D301FAC4DCAA44178B7BB03E62 /* PBXContainerItemProxy */;
+		};
+		DDD35EA3947DFC283F025640C829CF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-clippy";
+			target = 3C828988FC0CDB736B59BE262FD388E8 /* Pods-clippy */;
+			targetProxy = 40D55ABFF98E5F078FF4E41ACB288CE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06D3E1FAA346849131DE9A93AA110B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6A2D1BBA1D028A589CC19951619579 /* Pods-clippy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-clippy/Pods-clippy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-clippy/Pods-clippy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D0567B9BC7265D2214E6196F7D372C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101A27A7FFB2F6885DC62A63B4BE6D85 /* Pods-clippyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-clippyUITests/Pods-clippyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-clippyUITests/Pods-clippyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FAC12000FE33977F1D24E37C96B4EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEE8738F905CAED72DF58DA025865E4 /* Pods-clippy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-clippy/Pods-clippy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-clippy/Pods-clippy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		597E092427DF423992C59C814880FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6BF57285D9204C2000A902E0BD28BE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC9FE1AB29E90A75B1451F018D87DA0 /* Pods-clippyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-clippyTests/Pods-clippyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-clippyTests/Pods-clippyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B58B57D43C2E45459EB72C4491F8EFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBE4DD3664B28DAB09543E01331F6C9 /* Pods-clippyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-clippyUITests/Pods-clippyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-clippyUITests/Pods-clippyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC0FAA8F65922D9B44C4E4A130D6A3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603128F1C7D28B2BB3242C195CA20EF0 /* Pods-clippyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-clippyTests/Pods-clippyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-clippyTests/Pods-clippyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEAB4D407F8BFBAF687301F20F286FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B846D6DCE91A7B2251F039043340EA /* HotKey.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/HotKey/HotKey-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HotKey/HotKey-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/HotKey/HotKey.modulemap";
+				PRODUCT_MODULE_NAME = HotKey;
+				PRODUCT_NAME = HotKey;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDA86F1E6CBC950006956431C346436F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B846D6DCE91A7B2251F039043340EA /* HotKey.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/HotKey/HotKey-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HotKey/HotKey-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/HotKey/HotKey.modulemap";
+				PRODUCT_MODULE_NAME = HotKey;
+				PRODUCT_NAME = HotKey;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CBC712A5576BF7045F3BEA3D6804E3 /* Build configuration list for PBXNativeTarget "Pods-clippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAC12000FE33977F1D24E37C96B4EE9 /* Debug */,
+				06D3E1FAA346849131DE9A93AA110B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */,
+				597E092427DF423992C59C814880FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0774B8CF935268EE43CCC073492FAB /* Build configuration list for PBXNativeTarget "Pods-clippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF57285D9204C2000A902E0BD28BE25 /* Debug */,
+				CC0FAA8F65922D9B44C4E4A130D6A3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CF4E656A9E7278BE7AD5E48841412E /* Build configuration list for PBXNativeTarget "HotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA86F1E6CBC950006956431C346436F /* Debug */,
+				DEAB4D407F8BFBAF687301F20F286FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7D1D53CFBFD1F7C0C0557103523512 /* Build configuration list for PBXNativeTarget "Pods-clippyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0567B9BC7265D2214E6196F7D372C7 /* Debug */,
+				B58B57D43C2E45459EB72C4491F8EFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

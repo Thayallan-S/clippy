@@ -1,0 +1,22 @@
+PODS:
+  - HotKey (0.1.1)
+
+DEPENDENCIES:
+  - HotKey (from `https://github.com/p0deje/HotKey.git`, branch `more-aliases`)
+
+EXTERNAL SOURCES:
+  HotKey:
+    :branch: more-aliases
+    :git: https://github.com/p0deje/HotKey.git
+
+CHECKOUT OPTIONS:
+  HotKey:
+    :commit: 5c6def0090da331ebbdcae24058faf3132be2ea3
+    :git: https://github.com/p0deje/HotKey.git
+
+SPEC CHECKSUMS:
+  HotKey: 0be143fd015544a63c51be6dc2066dbf455ced72
+
+PODFILE CHECKSUM: 32c840fa8488f84e31418c9b97305e3ebc09af3a
+
+COCOAPODS: 1.7.5
