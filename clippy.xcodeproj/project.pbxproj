@@ -264,6 +264,14 @@
 				TargetAttributes = {
 					2601B29D2305C75E005CBF8F = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					2601B2AF2305C75F005CBF8F = {
 						CreatedOnToolsVersion = 10.3;
@@ -581,6 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8NK52B9LMW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = clippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -601,6 +610,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8NK52B9LMW;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = clippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
