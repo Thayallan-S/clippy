@@ -1,5 +1,5 @@
 //
-//  Maccy.swift
+//  Clippy.swift
 //  clippy
 //
 //  Created by Thayallan Srinathan on 2019-08-15.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class Maccy {
+class Clippy {
     private let about = About()
     private let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
     private let menu = Menu(title: "Clippy")

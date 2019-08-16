@@ -20,7 +20,7 @@
 		268D05A72305C99000E53300 /* HistoryMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268D05A62305C99000E53300 /* HistoryMenuItem.swift */; };
 		268D05A92305C9A400E53300 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268D05A82305C9A400E53300 /* Keys.swift */; };
 		268D05AB2305C9B800E53300 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268D05AA2305C9B800E53300 /* Menu.swift */; };
-		268D05AD2305C9D000E53300 /* Maccy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268D05AC2305C9D000E53300 /* Maccy.swift */; };
+		268D05AD2305C9D000E53300 /* Clippy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268D05AC2305C9D000E53300 /* Clippy.swift */; };
 		26E1CC9B2305CC29006F76D5 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26E1CC9A2305CC29006F76D5 /* Application.xib */; };
 		26E1CC9E2305CC53006F76D5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E1CC9D2305CC53006F76D5 /* Carbon.framework */; };
 		26E1CC9F2305CC62006F76D5 /* Pods_clippy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAE227EA1D6F19D71E25E2 /* Pods_clippy.framework */; };
@@ -63,7 +63,7 @@
 		268D05A62305C99000E53300 /* HistoryMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMenuItem.swift; sourceTree = "<group>"; };
 		268D05A82305C9A400E53300 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		268D05AA2305C9B800E53300 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		268D05AC2305C9D000E53300 /* Maccy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maccy.swift; sourceTree = "<group>"; };
+		268D05AC2305C9D000E53300 /* Clippy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clippy.swift; sourceTree = "<group>"; };
 		26E1CC9A2305CC29006F76D5 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
 		26E1CC9C2305CC36006F76D5 /* clippy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clippy.entitlements; sourceTree = "<group>"; };
 		26E1CC9D2305CC53006F76D5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
@@ -144,7 +144,7 @@
 				268D05A62305C99000E53300 /* HistoryMenuItem.swift */,
 				268D05A82305C9A400E53300 /* Keys.swift */,
 				268D05AA2305C9B800E53300 /* Menu.swift */,
-				268D05AC2305C9D000E53300 /* Maccy.swift */,
+				268D05AC2305C9D000E53300 /* Clippy.swift */,
 				2601B2AA2305C75F005CBF8F /* Info.plist */,
 			);
 			path = clippy;
@@ -421,7 +421,7 @@
 				268D05A72305C99000E53300 /* HistoryMenuItem.swift in Sources */,
 				268D05A92305C9A400E53300 /* Keys.swift in Sources */,
 				2601B2A22305C75E005CBF8F /* AppDelegate.swift in Sources */,
-				268D05AD2305C9D000E53300 /* Maccy.swift in Sources */,
+				268D05AD2305C9D000E53300 /* Clippy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,15 +14,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let history = History()
     let hotKey = GlobalHotKey()
     
-    var maccy: Maccy
+    var clippy: Clippy
     
     override init() {
-        self.maccy = Maccy(history: history, clipboard: clipboard)
+        self.clippy = Clippy(history: history, clipboard: clipboard)
         super.init()
     }
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        maccy.start()
-        hotKey.handler = { self.maccy.popUp() }
+        clippy.start()
+        hotKey.handler = { self.clippy.popUp() }
     }
 }
 
