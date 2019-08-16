@@ -1,2 +1,3 @@
 # clippy
-Clipboard Manager for MacOS
+An Open-Source Clipboard Manager for MacOS
+
